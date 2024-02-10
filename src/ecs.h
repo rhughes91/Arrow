@@ -1548,7 +1548,7 @@ namespace object
                 {
                     while(m_supplements.size() < idCount)
                     {
-                        m_stores.push_back(system(functionIndex));
+                        m_stores.push_back(ecs::system(functionIndex));
                         m_supplements.push_back(SystemSupplement(numberOfEntities));
                     }
                 }

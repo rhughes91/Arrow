@@ -21,7 +21,6 @@ struct Vector3
 struct Transform
 {
     Vector3 position, scale;
-    Vector3 *test;
 };
 
 
